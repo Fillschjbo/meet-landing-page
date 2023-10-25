@@ -1,4 +1,53 @@
 * {
     background-color: #FAFAFA;
+    box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+    "header"
+    "picture-container"
+    "content-box-1"
+    "break"
+    "picture-container-2"
+    "content-box-2"
+    "bottom-box"
+;
+}
+
+.header {
+    grid-area: header;
+}
+
+.picture-container {
+    grid-area: picture-container;
+}
+
+.content-box-1 {
+    grid-area: content-box-1;
+}
+
+.break {
+    grid-area: break;
+}
+
+.picture-container-2 {
+    grid-area: picture-container-2;
+}
+
+.content-box-2 {
+    grid-area: content-box-2;
+}
+
+.bottom-box {
+    grid-area: bottom-box;
 }
