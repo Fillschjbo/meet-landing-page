@@ -83,6 +83,13 @@ body {
 
 .content-box-2 {
     grid-area: content-box-2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-box-2 {
+    width: 327px;
 }
 
 .bottom-box {
