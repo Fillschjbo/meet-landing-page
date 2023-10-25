@@ -24,6 +24,9 @@ body {
     "bottom-box"
 ;
 }
+.header-and-logo{
+    height:28px;
+}
 
 .header {
     grid-area: header;
