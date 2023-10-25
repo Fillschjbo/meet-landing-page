@@ -61,6 +61,22 @@ body {
     grid-area: break;
 }
 
+.line {
+    width: 1px;
+    height: 84px;
+    background-color: rgba(135, 135, 157, 0.25);
+    margin: 0 auto;
+}
+.circle {
+    height: 56px;
+    width:56px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid rgba(135, 135, 157, 0.25)
+}
+
+
 .picture-container-2 {
     grid-area: picture-container-2;
 }
