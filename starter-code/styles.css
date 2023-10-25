@@ -26,6 +26,13 @@ body {
 
 .header {
     grid-area: header;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 54px;
+}
+.header img {
+    width: 119px;
+    height: 28px;
 }
 
 .picture-container {
