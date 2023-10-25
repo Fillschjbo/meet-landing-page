@@ -25,7 +25,8 @@ body {
 ;
 }
 .header-and-logo{
-    height:28px;
+    height:68px;
+    display: block;
 }
 
 .header {
@@ -33,6 +34,7 @@ body {
     text-align: center;
     padding-top: 48px;
     padding-bottom: 54px;
+    display: block;
 }
 .header img {
     width: 119px;
