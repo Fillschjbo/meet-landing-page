@@ -2,10 +2,11 @@
     background-color: #FAFAFA;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
 }
 
 body {
-    padding: 24px;
+    padding: 0;
     min-height: 100vh;
 }
 
@@ -28,8 +29,17 @@ body {
     grid-area: header;
 }
 
+.picture-container img {
+    width: 199px;
+    height: 153px;
+}
+
 .picture-container {
     grid-area: picture-container;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .content-box-1 {
